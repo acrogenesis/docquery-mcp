@@ -43,6 +43,14 @@ Some clients use `"type": "http"` instead of `"streamableHttp"`. Replace `dq_dem
 
 This repo is also a Cursor plugin (`.cursor-plugin/plugin.json` + `mcp.json`). It connects to `https://docquery.io/api/v1/mcp` with no stored secret: Cursor signs you in to DocQuery with OAuth (read-only scope `mcp:read`) the first time a tool is used.
 
+### Gemini CLI extension
+
+```bash
+gemini extensions install https://github.com/acrogenesis/docquery-mcp
+```
+
+Connects to `https://docquery.io/api/v1/mcp`; Gemini CLI signs you in with OAuth on first use.
+
 ### Claude Code
 
 ```bash

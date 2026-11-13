@@ -1,0 +1,11 @@
+{
+  "name": "docquery",
+  "version": "1.0.1",
+  "description": "Query your spreadsheet (Excel, CSV, Google Sheets, Airtable) and the PDFs beside it as one relational dataset through DocQuery's read-only remote MCP server.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "docquery": {
+      "httpUrl": "https://docquery.io/api/v1/mcp"
+    }
+  }
+}
