@@ -39,6 +39,10 @@ MCP access is read-only on purpose; edits happen in the DocQuery app or the REST
 
 Some clients use `"type": "http"` instead of `"streamableHttp"`. Replace `dq_demo_readonly` with your own key from your workspace in https://docquery.io to query your own data. Clients that support OAuth can omit the header and sign in.
 
+### Cursor plugin
+
+This repo is also a Cursor plugin (`.cursor-plugin/plugin.json` + `mcp.json`). It connects to `https://docquery.io/api/v1/mcp` with no stored secret: Cursor signs you in to DocQuery with OAuth (read-only scope `mcp:read`) the first time a tool is used.
+
 ### Claude Code
 
 ```bash

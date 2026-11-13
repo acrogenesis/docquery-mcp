@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "docquery": {
+      "url": "https://docquery.io/api/v1/mcp"
+    }
+  }
+}
